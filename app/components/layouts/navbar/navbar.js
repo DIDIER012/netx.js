@@ -1,6 +1,8 @@
+"use client";
+
 import { useState } from "react"; // Asegúrate de importar useState
 import { Link, useLocation } from "react-router-dom";
-import CartWidget from "../../common/CartWidget/CartWidget";
+import CartWidget from "../../common/cardwidget/cardWidget";
 import { categories } from "./categories";
 import Model from "../model/model";
 
@@ -12,6 +14,7 @@ const Navbar = ({ menuOpen, toggleMenu }) => {
         return null;
     }
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleButton = () => {

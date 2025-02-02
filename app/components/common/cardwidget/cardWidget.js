@@ -1,7 +1,7 @@
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";  
 import Badge from "@mui/material/Badge";  
 import { useContext } from "react";
-import { ShopContext } from "../../../context/shopContext";
+import { ShopContext } from "../../context/shopContext";
 
 
 const CartWidget = ({toggleButton}) => {  
