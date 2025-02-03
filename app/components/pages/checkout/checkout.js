@@ -1,5 +1,6 @@
+"use client";
 import { useContext, useState } from "react";  
-import { ShopContext } from "../../../context/shopContext";  
+import { ShopContext } from "../../context/shopContext";  
 import { collection, addDoc, updateDoc, doc } from "firebase/firestore";  
 import { db } from "../../../firebase.config";
 
