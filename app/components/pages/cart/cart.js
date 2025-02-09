@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import Swal from "sweetalert2";
 
 const Cart = ({ shop, clearCart, deleteProductById, total }) => {
@@ -69,7 +69,7 @@ return (
         >
         Limpiar carrito
         </Button>
-        <Link to="/Comprobante">
+        <Link href="/Comprobante"> 
         <Button sx={{ marginTop: 20 }} variant="contained">
             Finalizar compra
         </Button>

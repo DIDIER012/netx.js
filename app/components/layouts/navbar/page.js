@@ -1,10 +1,7 @@
-const { NavbarContainer } = require("./navbarContainer")
-
-
+import NavbarContainer from "./navbarContainer";
 
 const Navbar = () => {
-    return NavbarContainer;
-}
-
+    return <NavbarContainer />;
+};
 
 export default Navbar;
