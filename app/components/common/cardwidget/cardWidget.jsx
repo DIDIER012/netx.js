@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { ShopContext } from "../../context/shopContext";
 
 
+
 const CartWidget = ({toggleButton}) => {  
 
     const { shop } = useContext(ShopContext);
