@@ -1,8 +1,9 @@
-import ItemDetail from "./itemDetail";
+"use client";
+import itemDetail from "./itemDetail";
 
 
 const ItemDetail = () => {
-    return ItemDetail;
+    return itemDetail;
 }
 
 export default ItemDetail;
