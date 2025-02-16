@@ -1,5 +1,6 @@
 import { ShopContextProvider } from "./components/context/shopContext";
 import Navbar1 from "./components/layouts/navbar/page";
+import ItemDetail from "./components/pages/itemDetail/itemDetail";
 
 
 export default function CreateEventsPage() {
@@ -7,7 +8,7 @@ export default function CreateEventsPage() {
         <>
         <ShopContextProvider>  
         <Navbar1/>
-            <Component {...pageProps} />  
+        <ItemDetail/>
         </ShopContextProvider>
         </>
     );

@@ -1,3 +1,5 @@
+import './globals.css'
+
 export const metadata = {
 title: "Ecommerce | Home",
 description: "Ecommerce para empresa de ropa Zara",
